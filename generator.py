@@ -91,6 +91,22 @@ else :
 
 print (encumberance,'items equal one encumberance point for you.')
 
-#Skills, not looking forward to this bit
+#Skills - lets first baseline them
+skills=['Architecture','Bushcraft','Climb','Languages','Leadership','Luck','Medicine','Seamanship','Search','Sleight of Hand','Tinkering','Stealth']
 
+if intelligence <= 4 :
+	print('You are an unskilled peasant.')
+if intelligence <= 8 :
+	threeskill = random.choice(skills)
+	print('You have a +3 in',threeskill)
+if intelligence <= 12 :
+	threeskill = random.choice(skills)
+	twoskill = random.choice(skills)
+	print('You have a +3 in',threeskill,'and a +2 in',twoskill)
+if intelligence <= 16 :
+	threeskill = random.choice(skills)
+	twoskill = random.choice(skills)
+	print('You have a +3 in',threeskill,'and a +2 in',twoskill)
+else :
+	print('Stuff')
 

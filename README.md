@@ -1,6 +1,6 @@
 # LotFP-Character-Gen-Playtest
 
-The objective of this program is to create a quick character for the latest Lamentations of the Flame Princess playtest rule set.
+The objective of this program is to create a quick character for the latest Lamentations of the Flame Princess playtest rule set. Please note this program is unofficial and has been done purely to assist in me learning Python3 - if it creates something that people can use afterwards, then excellent.
 
 Current Features:
 
